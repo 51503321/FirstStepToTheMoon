@@ -4,6 +4,7 @@ import React from 'react';
 const App = () => {
     const age = 'asdaidnkad';
     const baaaa = 'abc';
+    const i = 1921313;
     console.log(age);
     return <></>;
 };
