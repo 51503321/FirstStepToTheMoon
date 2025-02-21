@@ -3,7 +3,7 @@ import React from 'react';
 
 const App = () => {
     const age = 'John';
-    const adsada = 1921313222;
+    const adsadaaass = 1921313222;
     console.log(age);
     return <></>;
 };
