@@ -1,8 +1,7 @@
 import React from 'react';
 // default constants
 const App = () => {
-    var s = '';
-    return <>22</>;
+    return <>2s2s</>;
 };
 
 export default App;
