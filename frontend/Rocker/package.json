@@ -30,9 +30,9 @@
     },
     "scripts": {
         "prepare": "husky",
-        "lint-staged": "lint-staged"
+        "lint": "lint"
     },
-    "lint-staged": {
+    "lint": {
         "*.tsx": [
             "npm run lint",
             "npm run format",
