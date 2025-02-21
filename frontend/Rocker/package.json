@@ -25,13 +25,18 @@
     },
     "devDependencies": {
         "husky": "^9.1.7",
-        "lint-staged": "^13.2.3",
+        "lint-staged": "^15.4.3",
         "prettier": "3.5.1"
     },
     "scripts": {
-        "prepare": "husky"
+        "prepare": "husky",
+        "lint-staged": "lint-staged"
     },
     "lint-staged": {
-        "**/*": "prettier --write --ignore-unknown"
+        "*.tsx": [
+            "npm run lint-staged",
+            "npm run format",
+            "git add ."
+        ]
     }
 }

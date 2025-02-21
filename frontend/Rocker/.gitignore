@@ -247,7 +247,6 @@ logs/
 */.env*
 */appsettings.Development.local.json
 */package-lock.json
-*.lock
 */**/UploadFiles
 mobile/IDTEKMIS/yarn.lock
 mobile/IDTEKMIS/ios/Podfile.lock
