@@ -25,11 +25,5 @@
     },
     "devDependencies": {
         "prettier": "3.5.1"
-    },
-    "lint-staged": {
-        "*.{js,css,md}": "prettier --write"
-    },
-    "scripts": {
-        "prepare": "husky install"
     }
 }
