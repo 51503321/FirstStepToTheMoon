@@ -12,6 +12,7 @@
         "eslint": "^9.20.1",
         "eslint-plugin-react": "^7.37.4",
         "globals": "^16.0.0",
+        "husky": "^9.1.7",
         "prettier": "3.5.1",
         "typescript-eslint": "^8.24.1"
     },
@@ -19,8 +20,8 @@
         "typescript": "^5.7.3"
     },
     "lint-staged": {
-        "*.js": "eslint --cache --fix",
-        "*.{js,css,md}": "prettier --write"
+        "*.tsx": "eslint --cache --fix",
+        "*.{tsx,css,md}": "prettier --write"
     },
     "scripts": {
         "prepare": "husky install"
