@@ -32,5 +32,11 @@
         "prepare": "husky",
         "lint-staged": "lint-staged"
     },
-    "lint-staged": {}
+    "lint-staged": {
+        "*.tsx": [
+            "npm run lint",
+            "npm run format",
+            "git add ."
+        ]
+    }
 }
