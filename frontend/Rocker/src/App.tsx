@@ -7,6 +7,7 @@ const App = () => {
     const i = 1921313;
     const adsada = 1921313;
     const adsada111 = 1921313;
+    const adsada111222 = 1921313;
     console.log(age);
     return <></>;
 };
