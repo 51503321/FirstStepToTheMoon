@@ -1,0 +1,14 @@
+{
+    "name": "rocket",
+    "version": "1.0.0",
+    "description": "s",
+    "main": "s",
+    "repository": "s",
+    "author": "s",
+    "license": "s",
+    "private": true,
+    "dependencies": {
+        "@types/react": "^19.0.10",
+        "react": "^19.0.0"
+    }
+}
